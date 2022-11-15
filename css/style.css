@@ -120,7 +120,11 @@ h2 {
 
 /* main seconda section */
 
-.container-section .column-lightblue {
+.container-section .row .column-lightblue {
+    width: 66%;
+}
+
+.container-section .row-reverse .column-lightblue {
     width: 66%;
 }
 
@@ -162,6 +166,7 @@ main>:nth-child(2n + 3) {
 .container-section .column-green {
     min-height: 800px;
 }
+
 
 /* FOOTER */
 
@@ -298,3 +303,4 @@ button {
     border: none;
     background-color: #7fffd4;
 }
+
