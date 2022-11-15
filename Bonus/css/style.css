@@ -286,6 +286,13 @@ option {
     background-color: #7289da;
 }
 
+/* ********** WAVES ********** */
+
+svg {
+    display: block;
+}
+
+
 /* <!-- ********** DEBUG ********** --> */
 
 /* Header/main debug */
@@ -379,10 +386,10 @@ option {
     border-radius: 20px;
   }
   
-  .button:hover {background-color: #3e8e41}
+  .button:hover {background-color: #7289da}
   
   .button:active {
-    background-color: #3e8e41;
+    background-color: #8EA1E1;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
