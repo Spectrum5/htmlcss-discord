@@ -1,3 +1,4 @@
+/* <!-- ********** REGOLE GENERALI ********** --> */
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +20,10 @@ menu {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: white
+}
 
 .container {
     max-width: 1000px;
@@ -29,13 +34,22 @@ menu {
 .row {
     display: flex;
 }
-/* <!-- ********** REGOLE GENERALI ********** --> */
 
+/* Forma dei pulsanti */
+
+.button {
+    border-radius: 20px;
+    font-size: 1em;
+    padding: 8px 16px;
+}
+
+/* <!-- ********** FINE REGOLE GENERALI ********** --> */
 
 /* header */
-.debug header {
-    background-color: #add8e6;
+header {
+    background-color: #3161e0;
     min-height: 70px;
+    color: white;
 }
 
 .container .row {
@@ -50,6 +64,14 @@ ul.row {
 }
 header {
     padding: 15px 0;
+}
+
+.button-white {
+    background-color: white;
+}
+
+.button-white a {
+    color: black;
 }
 
 /* main prima section*/
@@ -162,6 +184,12 @@ button {
 /* <!-- ********** DEBUG ********** --> */
 
 /* Header/main debug */
+
+.debug header {
+    background-color: #add8e6;
+    min-height: 70px;
+}
+
 .debug .container  {
     background-color: #daa520;
     border: 2px dashed black;
