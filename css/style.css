@@ -57,9 +57,7 @@ header {
 }
 
 ul.row {
-    gap: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
+    gap: 30px;
 }
 header {
     padding: 15px 0;
@@ -220,6 +218,7 @@ button {
 
 .footer-column {
     flex-basis: calc((100% / 12) * 4);
+    line-height: 50px;
 }
 
 .footer-column-2 {
@@ -232,12 +231,14 @@ button {
 }
 
 .footer-container {
-    padding-bottom: 30px;
-    border-bottom: 1px solid white;
+    padding-bottom: 30px 0;
+    line-height: 30px;
+    margin-top: 50px;
 }
 
 .footer-container-2 {
     padding-top: 20px;
+
 }
 
 .footer-container-2 .container-section .row * {
@@ -266,6 +267,19 @@ select {
 .social-list i {
    color: white;
    text-align: left;
+}
+
+.button {
+    background-color: #7289da;
+    color: white;
+}
+
+.h3-big {
+    font-size: 2em;
+}
+
+.container-hr {
+    border-bottom: 1px solid #7289da;
 }
 
 /* <!-- ********** DEBUG ********** --> */
