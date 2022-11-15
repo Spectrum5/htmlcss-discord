@@ -26,9 +26,8 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 6px
 }
 
 .row {
@@ -58,7 +57,7 @@ header {
 }
 
 ul.row {
-    gap: 70px;
+    gap: 60px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -108,16 +107,26 @@ h1 {
     padding: 9.5px 16.5px;
 }
 
+h2 {
+    font-size: 3em;
+    color: #23272a;
+}
+
+.paragraph-main {
+    margin-top: 20px;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
 /* main seconda section */
 
 .container-section .column-lightblue {
-    min-width: 60px;
-    flex-basis: 60%;
+    width: 66%;
 }
 
 .column-yellow {
-    min-width: 40px;
-    flex-basis: 40%;
+width: 34%;
+margin-top: 50px;
 }
 
 main div>.row {
@@ -138,7 +147,7 @@ main div>.row {
 }
 
 .container-section {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
