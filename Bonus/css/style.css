@@ -282,6 +282,10 @@ select {
     border-bottom: 1px solid #7289da;
 }
 
+option {
+    background-color: #7289da;
+}
+
 /* <!-- ********** DEBUG ********** --> */
 
 /* Header/main debug */
