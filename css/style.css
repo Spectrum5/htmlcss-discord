@@ -244,6 +244,29 @@ button {
     padding: 5px 10px;
 }
 
+.footer-h3 {
+    color: #7289da;
+}
+
+.img-ita {
+    width: 25px;
+}
+
+.img-ita,
+select {
+    vertical-align: middle;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.social-list i {
+   margin-left: 15px;
+}
+
 /* <!-- ********** DEBUG ********** --> */
 
 /* Header/main debug */
