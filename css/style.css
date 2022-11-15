@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* font-family: 'Whitney', sans-serif;
+font-family: 'Whitney Semibold', sans-serif;
+font-family: 'Whitney Book', sans-serif;
+font-family: 'Whitney Light', sans-serif; */
+
+body {
+    font-family: 'Whitney', sans-serif;
+}
+
 ul,
 ol,
 menu {
@@ -22,23 +31,11 @@ menu {
 }
 /* <!-- ********** REGOLE GENERALI ********** --> */
 
-/* <!-- ********** DEBUG ********** --> */
-
 
 /* header */
 .debug header {
     background-color: #add8e6;
     min-height: 70px;
-}
-
-.debug .container  {
-    background-color: #daa520;
-    border: 2px dashed black;
-}
-
-.debug .container ul {
-    border-right: 2px dashed black;
-    border-left: 2px dashed black;
 }
 
 .container .row {
@@ -61,34 +58,23 @@ header {
     max-width: 700px;
 }
 
-.debug .container-main {
-    min-height: 300px;
-    max-width: 700px;
-    background-color: #ee82ee;
-}
-
 .first-main {
-    background-color: #00008b;
     padding: 50px;
 }
 
 /* main seconda section */
 
 .container-section .column-lightblue {
-    background-color: #1e90ff;
     min-width: 60px;
-    border: 2px dashed black;
     flex-basis: 60%;
 }
 
-.debug .column-yellow {
-    background-color: #FFC0CB;
+.column-yellow {
     min-width: 40px;
-    border: 2px dashed black;
     flex-basis: 40%;
 }
 
-.debug main div>.row {
+main div>.row {
     min-height: 400px;
 }
 
@@ -111,49 +97,35 @@ section {
     padding: 50px 0;
 }
 
-.debug main>:nth-child(2n + 3) {
+main>:nth-child(2n + 3) {
     background-color: #d3d3d3;
 }
 
 .container-section .column-green {
-    background-color: #228b22;
     min-height: 800px;
-    border: 2px dashed black;
 }
 
 /* FOOTER */
 
-.debug footer {
+footer {
     min-height: 100px;
-    background-color: #23272a;
     padding-top: 5px;
 }
 
-.debug footer .footer-container .row {
+footer .footer-container .row {
     min-height: 500px;
 }
 
-.debug .footer-column {
+.footer-column {
     min-width: 50px;
-    background-color: #f08080;
-    border: 2px dashed black;
 }
 
-.debug .footer-column-2 {
+.footer-column-2 {
     min-width: 10px;
-    background-color: #20b2aa;
-    border: 2px dashed white;
 }
 
-.debug .footer-container-2 .row {
+.footer-container-2 .row {
     min-height: 80px;
-    border: none;
-    background-color: #7fffd4;
-}
-
-.debug .footer-container-2 .container-section .row>* {
-    background-color: #FFB6C1;
-    border: 2px dashed black;
 }
 
 button {
@@ -185,4 +157,84 @@ button {
 
 .footer-container-2 .container-section .row * {
     padding: 5px 10px;
+}
+
+/* <!-- ********** DEBUG ********** --> */
+
+/* Header/main debug */
+.debug .container  {
+    background-color: #daa520;
+    border: 2px dashed black;
+}
+
+.container-main {
+    min-height: 300px;
+    max-width: 700px;
+}
+
+.debug .container-section .column-lightblue {
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.debug header {
+    background-color: #add8e6;
+}
+
+
+.debug .container ul {
+    border-right: 2px dashed black;
+    border-left: 2px dashed black;
+}
+
+.debug main>:nth-child(2n + 3) {
+    background-color: #d3d3d3;
+}
+
+.debug .column-yellow {
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+}
+
+.debug main div>.row {
+    min-height: 400px;
+}
+
+.debug .first-main {
+    background-color: #00008b;
+}
+
+.debug .container-section .column-green {
+    background-color: #228b22;
+    border: 2px dashed black;
+}
+
+.debug .container-main {
+    background-color: #ee82ee;
+}
+
+/* footer debug */
+
+.debug footer {
+    background-color: #23272a;
+}
+
+.debug .footer-column {
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.debug .footer-column-2 {
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+.debug .footer-container-2 .container-section .row>* {
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+}
+
+.debug .footer-container-2 .row {
+    border: none;
+    background-color: #7fffd4;
 }
