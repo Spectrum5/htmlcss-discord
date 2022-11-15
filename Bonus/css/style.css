@@ -161,13 +161,13 @@ section {
     padding: 50px 0;
 }
 
-main>:nth-child(2n + 3) {
-    background-color: #f6f6f6;
-}
-
 .container-section .column-green {
     min-height: 800px;
     text-align: center; 
+}
+
+.background-gray {
+    background-color: #f6f6f6;
 }
 
 .paragraph-background {
@@ -393,3 +393,4 @@ svg {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
