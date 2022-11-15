@@ -131,8 +131,8 @@ h2 {
 }
 
 .column-yellow {
-width: 34%;
-margin-top: 50px;
+    width: 34%;
+    margin-top: 50px;
 }
 
 main div>.row {
@@ -162,7 +162,7 @@ section {
 }
 
 main>:nth-child(2n + 3) {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .container-section .column-green {
