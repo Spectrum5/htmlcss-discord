@@ -118,6 +118,10 @@ h2 {
     line-height: 1.2em;
 }
 
+.p-center {
+    text-align: center;
+}
+
 /* main seconda section */
 
 .container-section .row .column-lightblue {
@@ -165,14 +169,32 @@ main>:nth-child(2n + 3) {
 
 .container-section .column-green {
     min-height: 800px;
+    text-align: center; 
 }
 
+.paragraph-background {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #23272a;
+    font-size: 1.5em;
+}
+
+.button-blue {
+    color: white;
+    background-color: #8EA1E1;
+    margin-top: 20px;
+}
 
 /* FOOTER */
 
 footer {
     min-height: 100px;
     padding-top: 5px;
+    background-color: #23272a;
 }
 
 footer .footer-container .row {
