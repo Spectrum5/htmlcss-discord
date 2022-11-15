@@ -265,6 +265,7 @@ select {
 
 .social-list i {
    color: white;
+   text-align: left;
 }
 
 /* <!-- ********** DEBUG ********** --> */
